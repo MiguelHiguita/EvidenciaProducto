@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+.lateral{
+    width: 15%;
+    height: 80%;
+    position: fixed;
+    flex-direction: column;
+    left: 5%;
+    top: 10%;
+}
+.logo{
+    width: 90%;
+    height: 30vh;
+}
+.contacto{
+    width: 100%;
+    height: 62%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.titulo1{
+    font-size: 170%;
+    position: relative;
+    top: 3%;
+    color: rgb(81, 81, 124);
+}
+.info1{
+    font-size: 125%;
+    position: relative;
+    bottom: 4%;
+}
+.info2{
+    font-size: 100%;
+    position: relative;
+    bottom: 10%;
+}
+.subtitulo1{
+    font-size: 130%;
+    position: relative;
+    bottom: 4%;
+}
+.info3{
+    font-size: 120%;
+    position: relative;
+    bottom: 11%; 
+}
+.info4{
+    position: relative;
+    bottom: 18%;
+}
+main{
+
+    position: relative;
+    left: 25%;
+    top: 10%;
+    height: 100vh;
+    width: 70vw;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.nombre{
+    font-size: 250%;
+}
+.profesion{
+    font-size: 150%;
+    margin-bottom: 1%;
+}
+.section1{
+    margin-top: 1%;
+    width: 70%;
+    margin-bottom: 2%;
+}
+h1{
+    font-size: 100%;
+}
+.titulo2{
+    font-size: 140%;
+    margin-bottom: 1%;
+    color: rgb(81, 81, 124);
+
+}
+.resaltado{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(218, 218, 218);
+    margin-top: 0.5%;
+    padding: 1%;
+}
+.subtitulo2{
+    font-size: 120%;
+    margin-top: 4%;
+    margin-bottom: 1%;
+}
